@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "adminlte3-rails"
   spec.version       = Adminlte3::Rails::VERSION
   spec.authors       = ["mirko314"]
-  spec.email         = ["mirko.budszuhn@rub.de"]
+  spec.email         = ["mirko.budszuhn@gmail.com"]
 
   spec.summary       = "Bundles AdminLTE3 with the AssetPipeline"
   spec.description   = "Bundles AdminLTE3 with the AssetPipeline"
@@ -36,4 +36,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails"
   spec.add_dependency "sass"
   spec.add_dependency "sass-rails"
+  spec.add_dependency "jquery-rails"
+  spec.add_dependency "bootstrap"
+
 end
