@@ -5,7 +5,7 @@ require "adminlte3/rails/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "adminlte3-rails"
-  spec.version       = Adminlte3::Rails::VERSION
+  spec.version       = 0.0.2
   spec.authors       = ["mirko314"]
   spec.email         = ["mirko.budszuhn@gmail.com"]
 
